@@ -111,3 +111,20 @@ input {
     background: #3498DB;
     color: #fff;
 }
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        letter-spacing: 1px;
+        font-size: 20px;
+    }
+    .Temperature-icon {
+        font-size: 40px;
+    }
+    .container{
+        max-width: 400px;
+    }
+    .button button{
+        padding: 5px 15px;
+        font-size: 15px;
+    }
+}
